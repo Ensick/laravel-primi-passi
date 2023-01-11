@@ -4,20 +4,22 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>FAQ</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
         <style>
-          
-          
-          
+            
+            body{
+
+                background-color: red;
+            }
         </style>
     </head>
     <body>
-
+        
         <header>
             <nav>
                 <ul>
@@ -27,9 +29,8 @@
                 </ul>
             </nav>
         </header>
-        
-        <h1>Hello World</h1>
-        <h2>{{ $frase }}</h2>
+
+        <h1>FAQ</h1>
 
     </body>
 </html>
